@@ -1051,6 +1051,7 @@ div.content-box.big div.content-box-info p {
     height: 100%;
     width: 100%;
     position: relative;
+    background-image: url('../img/slider/bx1.jpg')
 }
 
 .image-parallax .slide-content {

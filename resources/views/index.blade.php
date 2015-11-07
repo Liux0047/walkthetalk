@@ -7,7 +7,7 @@
 <html> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Agency Parallax Responsive HTML5/CSS3 Template | FIFO THEMES</title>
+    <title>Walk the Talk | Travel made different</title>
     <meta name="description" content="Agency Parallax Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/global.css') }}">
     <!-- Skin -->
-    <link rel="stylesheet" href="{{ asset('css/colors/teal.css') }}" class="colors">
+    <link rel="stylesheet" href="{{ asset('css/colors/orange.css') }}" class="colors">
 
 
     <!-- Favicons -->
@@ -59,7 +59,7 @@
 
 
     <!-- Image Background Parallax -->
-    <div id="section" class="image-parallax" style="background-image: url({{ asset('img/slider/bx1.jpg') }})">
+    <div id="section" class="image-parallax">
 
         <div class="bg-overlay">
             <div class="slide-content light">
@@ -120,25 +120,25 @@
                                 <div class="collapse navbar-collapse" id="menu">
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a href="#section1">Home</a></li>
-                                        <li><a href="#section2">About Us</a></li>
-                                        <li><a href="#section3">Portfolio</a></li>
-                                        <li><a href="#section4">Services</a></li>
-                                        <li><a href="#section5">Clients</a></li>
-                                        <li><a href="#section6">Pricing</a></li>
                                         <li class="dropdown nav-toggle">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Destinations<b
                                                         class="caret"></b></a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="external"
-                                                       href="../../../AGENCY-HTML/HTML/blog.html">Blog</a></li>
-                                                <li><a class="external" href="../../../AGENCY-HTML/HTML/blog-big.html">Blog
-                                                        Large</a></li>
-                                                <li><a class="external"
-                                                       href="../../../AGENCY-HTML/HTML/single-post.html">Single Page</a>
-                                                </li>
+                                                       href="../../../AGENCY-HTML/HTML/blog.html">1st Stop - Singapore</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#section7">Contact</a></li>
+                                        <li class="dropdown nav-toggle">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<b
+                                                        class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="external"
+                                                       href="../../../AGENCY-HTML/HTML/blog.html">Edutainment Camp</a></li>
+                                                <li><a class="external" href="../../../AGENCY-HTML/HTML/blog-big.html">A glimpse to Nanyang</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#section7">Meet Our Team</a></li>
+                                        <li><a href="#section7">Partners</a></li>
                                     </ul>
                                 </div>
                                 <!-- /.Navbar-collapse -->
@@ -159,14 +159,13 @@
             <!-- Title row -->
             <div class="row">
                 <div class="col-md-12 big-title wow bounceIn">
-                    <h2>About Us</h2>
+                    <h2>What is Walk-the-Talk</h2>
                 </div>
 
                 <div class="clearfix"></div>
 
                 <div class="col-md-12 sub-title text-center wow slideInRight">
-                    <h3>We match the project goals with a proposed solution considering latest web features, web design
-                        and corporate branding!</h3>
+                    <h3>We believe that for a high school or college student, learning English is not just about the language itself.</h3>
                 </div>
             </div>
             <!-- /Title row -->
@@ -192,7 +191,7 @@
                 <!-- Content row -->
                 <div class="row">
                     <!-- Content box 1 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="content-box big ch-item wow fadeInLeft">
                             <div class="ch-info-wrap">
                                 <div class="ch-info">
@@ -202,11 +201,10 @@
                                 </div>
                             </div>
                             <div class="content-box-info">
-                                <h4>Professional Work</h4>
+                                <h4>PEER GUIDES</h4>
 
                                 <p>
-                                    Great development is the architecture that complements and supports the design. It
-                                    is made by excellent use of white space, and plenty of it!
+                                    Meet native speakers; have fun with local undergraduate tour guides
                                 </p>
                             </div>
                         </div>
@@ -214,7 +212,7 @@
                     <!-- /Content box 1 -->
 
                     <!-- Content box 2 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="content-box big ch-item wow fadeInDown">
                             <div class="ch-info-wrap">
                                 <div class="ch-info">
@@ -224,19 +222,40 @@
                                 </div>
                             </div>
                             <div class="content-box-info">
-                                <h4>Unique Design</h4>
+                                <h4>DYNAMIC EXPERIENCE</h4>
 
                                 <p>
-                                    Great development is the architecture that complements and supports the design. It
-                                    is made by excellent use of white space, and plenty of it!
+                                    Mingle with peers from different countries and cultural backgrounds.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <!-- /Content box 2 -->
 
+
                     <!-- Content box 3 -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="content-box big ch-item wow fadeInDown">
+                            <div class="ch-info-wrap">
+                                <div class="ch-info">
+                                    <div class="ch-info-front ch-img-1">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box-info">
+                                <h4>COMPETENCY BUILDUP</h4>
+
+                                <p>
+                                    Develop communication, interpersonal and leadership skills; practice public speaking and teamwork essentials
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Content box 3 -->
+
+                    <!-- Content box 3 -->
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="content-box big ch-item wow fadeInRight">
                             <div class="ch-info-wrap">
                                 <div class="ch-info">
@@ -246,11 +265,10 @@
                                 </div>
                             </div>
                             <div class="content-box-info">
-                                <h4>Superb Support</h4>
+                                <h4>CUSTOMIZABLE SERVICES</h4>
 
                                 <p>
-                                    Great development is the architecture that complements and supports the design. It
-                                    is made by excellent use of white space, and plenty of it!
+                                    Explore various themes, visit local families, and enjoy personalized travel documentary
                                 </p>
                             </div>
                         </div>
@@ -339,12 +357,12 @@
                     <h2>
                         <i class="fa fa-quote-left wow fadeInLeft"></i>
                                           <span class="wow bounceIn">
-                                                Design is a plan for arranging elements in such a way as best to accomplish a particular purpose.
+                                                THE WORLD IS A BOOK. <br>THOSE WHO DO NOT TRAVEL ONLY READ A PAGE.
                                           </span>
                         <i class="fa fa-quote-right wow" data-animate="fadeInRight"></i>
                     </h2>
 
-                    <p class="animated wow" data-animate="fadeInUp">- Charles Eames -</p>
+                    <p class="animated wow" data-animate="fadeInUp">- Saint Augustine -</p>
                 </div>
             </div>
         </div>
@@ -356,14 +374,13 @@
                 <!-- Title row -->
                 <div class="row">
                     <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Agency Team</h2>
+                        <h2>Our Team</h2>
                     </div>
 
                     <div class="clearfix"></div>
 
                     <div class="col-md-12 sub-title text-center wow slideInRight">
-                        <h3>Get to know the talented people behind it all, and read our latest thinking about web design
-                            process, web development and content Agencying!</h3>
+                        <h3>We are a group of young, energetic people who aspire to explore the world with you</h3>
                     </div>
                 </div>
                 <!-- /Title row -->
@@ -387,16 +404,16 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Lorem ipsum dolor sit amet, quis adipiscing elit.
+                                                Awarded Singapore SM2 scholarship for his university studies at Nanyang Technological University while studying in Chonqqing Foreign Languages School. Interned at UBS, Westpac Bank and many fresh start-ups.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="team-member-meta">
-                                    <h4 class="team-member-name">Monzurul Haque</h4>
+                                    <h4 class="team-member-name">Jerry He</h4>
 
                                     <div class="team-member-role">
-                                        CEO
+                                        Chief Executive Officer (Founder)
                                     </div>
                                 </div>
                             </div>
@@ -420,16 +437,16 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Lorem ipsum dolor sit amet, quis adipiscing elit.
+                                                Graduated from Tianjin University and studied in Chongqing Foreign Languages School Attached to Sichuan International Studies University. Awarded a one-year Australian government scholarship for his overseas studies.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="team-member-meta">
-                                    <h4 class="team-member-name">Jessica Alba</h4>
+                                    <h4 class="team-member-name">Aaron Duan</h4>
 
                                     <div class="team-member-role">
-                                        CMO
+                                        Chief Public-relation Officer
                                     </div>
                                 </div>
                             </div>
@@ -453,16 +470,16 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Lorem ipsum dolor sit amet, quis adipiscing elit.
+                                                Finished his middle school studies in Fujian Fuzhou No1. Middle School. Awarded Singapore SM2 Scholarship for his study in Mechanical & Aerospace Engineering School Design Stream, in which he is now pursuing his Ph.D.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="team-member-meta">
-                                    <h4 class="team-member-name">Emma Watson</h4>
+                                    <h4 class="team-member-name">Tracy Huang</h4>
 
                                     <div class="team-member-role">
-                                        CFO
+                                        Chief Marketing Officer (Co-founder)
                                     </div>
                                 </div>
                             </div>
@@ -486,16 +503,16 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Lorem ipsum dolor sit amet, quis adipiscing elit.
+                                                Graduated from Chongqing University, with Bachelor’s degree in accouting. Now working at Chongqing Xiliken Import and Export Corporation.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="team-member-meta">
-                                    <h4 class="team-member-name">Atiar Rahman</h4>
+                                    <h4 class="team-member-name">Rye Wang</h4>
 
                                     <div class="team-member-role">
-                                        CTO
+                                        Chief Public-relation Officer
                                     </div>
                                 </div>
                             </div>
@@ -568,191 +585,6 @@
     </section>
     <!-- /Section 2 -->
 
-    <!-- Section 3 -->
-    <section id="section3" class="portfolio">
-        <!-- Title row -->
-        <div class="row">
-            <div class="col-md-12 big-title wow bounceIn">
-                <h2>Portfolio</h2>
-            </div>
-
-            <div class="clearfix"></div>
-
-            <div class="col-md-12 sub-title text-center wow slideInRight">
-                <h3>More people will pay you money to help them achieve a monetary goal than will pay you to give them
-                    something pretty to look at!</h3>
-            </div>
-        </div>
-        <!-- /Title row -->
-
-        <!-- Portfolio Filters -->
-        <div id="filters" class="wow fadeInLeft">
-
-            <ul class="clearfix">
-                <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
-                <li><a href="#" data-filter=".wordpress"><h5>Wordpress</h5></a></li>
-                <li><a href="#" data-filter=".jquery"><h5>jQuery</h5></a></li>
-                <li><a href="#" data-filter=".php"><h5>PHP</h5></a></li>
-                <li><a href="#" data-filter=".css') }}"><h5>CSS</h5></a></li>
-                <li><a href="#" data-filter=".html"><h5>HTML</h5></a></li>
-            </ul>
-        </div>
-        <!-- /Portfolio Filters -->
-
-        <!-- Portfolio Wrap -->
-        <div id="portfolio-wrap">
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four wordpress html css">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio2.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio2.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four php jquery">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio3.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio3.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four wordpress css html">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio4.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio4.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four branding jquery">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio5.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio5.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four php html css">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio6.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio6.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four wordpress jquery">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio7.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio7.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four css php html jquery">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio8.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio8.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-            <!-- Portfolio Item With PrettyPhoto  -->
-            <div class="portfolio-item one-four wordpress php css">
-                <div class="img-holder">
-                    <img class="img-responsive" src="{{ asset('img/portfolio/portfolio1.jpg') }}" alt="">
-
-                    <div class="img-overlay"></div>
-                    <div class="overlay-effect">
-                                        <span class="RoundBg"><a data-gal="prettyPhoto[galname]"
-                                                                 href="{{ asset('img/portfolio/portfolio1.jpg') }}"><i
-                                                        class="fa fa-search"></i></a>
-                                        </span>
-                                        <span class="RoundBg"><a href=""><i class="fa fa-link"></i></a>
-                                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Item With PrettyPhoto  -->
-
-
-        </div>
-        <!-- /Portfolio Wrap -->
-    </section>
-    <!-- /Section 3 -->
-
     <!-- Section 4 -->
     <section id="section4" class="services">
         <div class="service-wrap">
@@ -760,7 +592,7 @@
                 <!-- Title row -->
                 <div class="row">
                     <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Services</h2>
+                        <h2>Programs</h2>
                     </div>
 
                     <div class="clearfix"></div>
@@ -774,13 +606,13 @@
 
                 <!-- Service row 1 -->
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
                         <div class="service-box">
                             <div class="service-icon">
                                 <i class="fa fa-arrows-alt"></i>
                             </div>
                             <div class="service-box-content">
-                                <h4>Responsive Layout</h4>
+                                <h4>Edutainment Camp</h4>
 
                                 <p>
                                     Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
@@ -788,27 +620,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
                         <div class="service-box">
                             <div class="service-icon">
                                 <i class="fa fa-eye"></i>
                             </div>
                             <div class="service-box-content">
-                                <h4>Retina Ready</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-edit"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>Rich Elements</h4>
+                                <h4>A Glimpse to Nanyang</h4>
 
                                 <p>
                                     Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
@@ -818,100 +636,6 @@
                     </div>
                 </div>
                 <!-- Service row 1 -->
-
-                <!-- Service row 2 -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-leaf"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>Unique Design</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-cog"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>New Approach</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>SEO Ready</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Service row 2 -->
-
-                <!-- Service row 3 -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-rocket"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>Professional Quality</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-code"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>HTMl5 Codes</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-clock-o"></i>
-                            </div>
-                            <div class="service-box-content">
-                                <h4>Timely Delivery</h4>
-
-                                <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Service row 3 -->
             </div>
         </div>
     </section>
@@ -925,7 +649,7 @@
                     <!-- Title row -->
                     <div class="row">
                         <div class="col-md-12 big-title light wow bounceIn">
-                            <h2>Clients Feedback</h2>
+                            <h2>Testimonials</h2>
                         </div>
 
                         <div class="clearfix"></div>
@@ -954,9 +678,9 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text ever since the 1500s.
+                                                        With the honour to be the pioneering batch of Edutainment Camp, I would say it was definitely an eye-opening experience.
+                                                        Not only did I get a chance to practice English more, I also made more international friends that I am still in touch with.
+                                                        This has really expanded my horizon to view the world from a whole different angle.
                                                     </p>
 
                                                     <div class="testimonials-arrow"></div>
@@ -966,8 +690,7 @@
                                                                  src="{{ asset('img/testimonial/team-member-1.jpg') }}">
                                                         </div>
                                                         <div class="testimonial-author-info">
-                                                            <a href="#"><span class="color">Monica Sing</span></a> FIFO
-                                                            Themes
+                                                            <a href="#"><span class="color">Bobby Zeng</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -977,9 +700,10 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text ever since the 1500s.
+                                                        As a high school student from China, A Glimpse to Nanyang gave me a first-person view on overseas studying experience.
+                                                        I wanted to visit Singapore to see if this would be a good destination for my college studies, and A Glimpse to Nanyang offered me much more than that.
+                                                        I also got to hear more from my seniors who went through selection tests to be government scholars to study here.
+                                                        I hope to go back one day to pursue my degree in Singapore.
                                                     </p>
 
                                                     <div class="testimonials-arrow"></div>
@@ -989,8 +713,7 @@
                                                                  src="{{ asset('img/testimonial/team-member-2.jpg') }}">
                                                         </div>
                                                         <div class="testimonial-author-info">
-                                                            <a href="#"><span class="color">Monzurul Haque</span></a>
-                                                            FIFO Themes
+                                                            <a href="#"><span class="color">Mengzhu Shi</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1000,9 +723,12 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text ever since the 1500s.
+                                                        I have been to other overseas educational camps before, but there is no one even compared to the Edutainment Camp.
+                                                        Interaction was the most prominent trait I would say, with international friends around my age.
+                                                        They shared with me more about the English language, taught me more on public speaking and team work skills,
+                                                        and I also learned how other non-English native speakers learned English, such as friends from Japan and Korea.
+                                                        I definitely recommend this programme to anyone that is interested to improve their English and other soft skills,
+                                                        as well as make international friends.
                                                     </p>
 
                                                     <div class="testimonials-arrow"></div>
@@ -1012,8 +738,7 @@
                                                                  src="{{ asset('img/testimonial/team-member-3.jpg') }}">
                                                         </div>
                                                         <div class="testimonial-author-info">
-                                                            <a href="#"><span class="color">Carol Johansen</span></a>
-                                                            FIFO Themes
+                                                            <a href="#"><span class="color">Hank Liu</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
