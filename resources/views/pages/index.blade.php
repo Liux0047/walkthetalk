@@ -1,155 +1,12 @@
-<!DOCTYPE html>
-<!--[if IE 8]>
-<html class="ie ie8"> <![endif]-->
-<!--[if IE 9]>
-<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->
-<html> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <title>Walk the Talk | Travel made different</title>
-    <meta name="description" content="Agency Parallax Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
-    <meta name="author" content="FIFOTHEMES.COM">
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine"/>
-    <!-- Library CSS -->
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/team-member.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ asset('css/fonts/font-awesome/css/font-awesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animations.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ asset('css/prettyPhoto.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ asset('css/jquery.bxslider.css') }}" media="screen">
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/global.css') }}">
-    <!-- Skin -->
-    <link rel="stylesheet" href="{{ asset('css/colors/orange.css') }}" class="colors">
+@extends('layouts.base')
 
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="{{ asset('img/ico/favicon.ico') }}">
-    <link rel="apple-touch-icon" href="{{ asset('img/ico/apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/ico/apple-touch-icon-72.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/ico/apple-touch-icon-114.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('img/ico/apple-touch-icon-144.png') }}">
-    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js') }}"></script>
-    <script src="{{ asset('js/respond.min.js') }}') }}"></script>
-    <![endif]-->
-</head>
-<body data-spy="scroll" data-target="#navigation" data-offset="75">
-<!-- Page Preloader -->
-<div class="page-mask">
-    <div class="page-loader">
-
-        <div class="spinner"></div>
-    </div>
-</div>
-<!-- /Page Preloader -->
-
-<!-- Warpper -->
+@section('content')
+@include('components.common.page-preloader')
+        <!-- Warpper -->
 <div class="wrap with-logo">
-
-
-    <!-- Image Background Parallax -->
-    <div id="section" class="image-parallax">
-
-        <div class="bg-overlay">
-            <div class="slide-content light">
-                <div class="align-center">
-                    <!-- Top Logo -->
-                    <div class="top-logo">
-                        <div class="scrollNormal">
-                            <a href="#section2">
-                                <img width="140" height="140" alt="Agency" src="{{ asset('img/logo_welcome.png') }}">
-                            </a>
-                        </div>
-                        <div class="scrollDown">
-                            <a href="#section2">
-                                <img width="140" height="140" alt="Agency" src="{{ asset('img/logo2_welcome.png') }}">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /Top Logo -->
-                    <ul class="text-slide">
-                        <li>Explore <span class="text-color">Agency</span> Theme</li>
-                        <li><span class="text-color">creative</span> team work</li>
-                        <li>Great <span class="text-color">features</span> included!</li>
-                    </ul>
-                    <a href="#section2" class="btn btn-1 img-btn">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/Image Background Parallax -->
-
     <!-- Header -->
     <header id="section1" class="parallax-slider">
-        <!-- Navigation -->
-        <div id="navigation">
-            <nav class="navbar navbar-custom cl-effect-21" role="navigation">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2 mob-logo">
-                            <div class="row">
-                                <div class="site-logo">
-                                    <a href="../../../AGENCY-HTML/HTML/index-image-slider.html"><img
-                                                src="{{ asset('img/logo.png') }}" alt="Agency"></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-10 mob-menu">
-                            <div class="row">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                            data-target="#menu">
-                                        <i class="fa fa-bars"></i>
-                                    </button>
-                                </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="menu">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a href="#section1">Home</a></li>
-                                        <li class="dropdown nav-toggle">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Destinations<b
-                                                        class="caret"></b></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="external"
-                                                       href="../../../AGENCY-HTML/HTML/blog.html">1st Stop - Singapore</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown nav-toggle">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<b
-                                                        class="caret"></b></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="external"
-                                                       href="../../../AGENCY-HTML/HTML/blog.html">Edutainment Camp</a></li>
-                                                <li><a class="external" href="../../../AGENCY-HTML/HTML/blog-big.html">A glimpse to Nanyang</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#section7">Meet Our Team</a></li>
-                                        <li><a href="#section7">Partners</a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.Navbar-collapse -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.container -->
-            </nav>
-        </div>
-        <!-- /Navigation -->
+        @include('components.page-frame.parallax')
     </header>
     <!-- /Header -->
 
@@ -165,7 +22,8 @@
                 <div class="clearfix"></div>
 
                 <div class="col-md-12 sub-title text-center wow slideInRight">
-                    <h3>We believe that for a high school or college student, learning English is not just about the language itself.</h3>
+                    <h3>We believe that for a high school or college student, learning English is not just about the
+                        language itself.</h3>
                 </div>
             </div>
             <!-- /Title row -->
@@ -247,7 +105,8 @@
                                 <h4>COMPETENCY BUILDUP</h4>
 
                                 <p>
-                                    Develop communication, interpersonal and leadership skills; practice public speaking and teamwork essentials
+                                    Develop communication, interpersonal and leadership skills; practice public speaking
+                                    and teamwork essentials
                                 </p>
                             </div>
                         </div>
@@ -268,7 +127,8 @@
                                 <h4>CUSTOMIZABLE SERVICES</h4>
 
                                 <p>
-                                    Explore various themes, visit local families, and enjoy personalized travel documentary
+                                    Explore various themes, visit local families, and enjoy personalized travel
+                                    documentary
                                 </p>
                             </div>
                         </div>
@@ -404,7 +264,9 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Awarded Singapore SM2 scholarship for his university studies at Nanyang Technological University while studying in Chonqqing Foreign Languages School. Interned at UBS, Westpac Bank and many fresh start-ups.
+                                                Awarded Singapore SM2 scholarship for his university studies at Nanyang
+                                                Technological University while studying in Chonqqing Foreign Languages
+                                                School. Interned at UBS, Westpac Bank and many fresh start-ups.
                                             </p>
                                         </div>
                                     </div>
@@ -437,7 +299,10 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Graduated from Tianjin University and studied in Chongqing Foreign Languages School Attached to Sichuan International Studies University. Awarded a one-year Australian government scholarship for his overseas studies.
+                                                Graduated from Tianjin University and studied in Chongqing Foreign
+                                                Languages School Attached to Sichuan International Studies University.
+                                                Awarded a one-year Australian government scholarship for his overseas
+                                                studies.
                                             </p>
                                         </div>
                                     </div>
@@ -470,7 +335,10 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Finished his middle school studies in Fujian Fuzhou No1. Middle School. Awarded Singapore SM2 Scholarship for his study in Mechanical & Aerospace Engineering School Design Stream, in which he is now pursuing his Ph.D.
+                                                Finished his middle school studies in Fujian Fuzhou No1. Middle School.
+                                                Awarded Singapore SM2 Scholarship for his study in Mechanical &
+                                                Aerospace Engineering School Design Stream, in which he is now pursuing
+                                                his Ph.D.
                                             </p>
                                         </div>
                                     </div>
@@ -503,7 +371,9 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Graduated from Chongqing University, with Bachelor’s degree in accouting. Now working at Chongqing Xiliken Import and Export Corporation.
+                                                Graduated from Chongqing University, with Bachelor’s degree in
+                                                accouting. Now working at Chongqing Xiliken Import and Export
+                                                Corporation.
                                             </p>
                                         </div>
                                     </div>
@@ -678,9 +548,12 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        With the honour to be the pioneering batch of Edutainment Camp, I would say it was definitely an eye-opening experience.
-                                                        Not only did I get a chance to practice English more, I also made more international friends that I am still in touch with.
-                                                        This has really expanded my horizon to view the world from a whole different angle.
+                                                        With the honour to be the pioneering batch of Edutainment Camp,
+                                                        I would say it was definitely an eye-opening experience.
+                                                        Not only did I get a chance to practice English more, I also
+                                                        made more international friends that I am still in touch with.
+                                                        This has really expanded my horizon to view the world from a
+                                                        whole different angle.
                                                     </p>
 
                                                     <div class="testimonials-arrow"></div>
@@ -700,9 +573,13 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        As a high school student from China, A Glimpse to Nanyang gave me a first-person view on overseas studying experience.
-                                                        I wanted to visit Singapore to see if this would be a good destination for my college studies, and A Glimpse to Nanyang offered me much more than that.
-                                                        I also got to hear more from my seniors who went through selection tests to be government scholars to study here.
+                                                        As a high school student from China, A Glimpse to Nanyang gave
+                                                        me a first-person view on overseas studying experience.
+                                                        I wanted to visit Singapore to see if this would be a good
+                                                        destination for my college studies, and A Glimpse to Nanyang
+                                                        offered me much more than that.
+                                                        I also got to hear more from my seniors who went through
+                                                        selection tests to be government scholars to study here.
                                                         I hope to go back one day to pursue my degree in Singapore.
                                                     </p>
 
@@ -723,11 +600,16 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        I have been to other overseas educational camps before, but there is no one even compared to the Edutainment Camp.
-                                                        Interaction was the most prominent trait I would say, with international friends around my age.
-                                                        They shared with me more about the English language, taught me more on public speaking and team work skills,
-                                                        and I also learned how other non-English native speakers learned English, such as friends from Japan and Korea.
-                                                        I definitely recommend this programme to anyone that is interested to improve their English and other soft skills,
+                                                        I have been to other overseas educational camps before, but
+                                                        there is no one even compared to the Edutainment Camp.
+                                                        Interaction was the most prominent trait I would say, with
+                                                        international friends around my age.
+                                                        They shared with me more about the English language, taught me
+                                                        more on public speaking and team work skills,
+                                                        and I also learned how other non-English native speakers learned
+                                                        English, such as friends from Japan and Korea.
+                                                        I definitely recommend this programme to anyone that is
+                                                        interested to improve their English and other soft skills,
                                                         as well as make international friends.
                                                     </p>
 
@@ -1020,70 +902,12 @@
             </div>
         </div>
         <!-- /Contact form -->
-
-        <!-- Google Map -->
-        <div class="map-wrap">
-            <div class="wow fadeInUp">
-                <div id="maps" class="google-maps">
-                </div>
-            </div>
-        </div>
-        <!-- /Google Map -->
-
-        <footer class="footer-wrap text-center">
-            <div class="container">
-                <ul class="social social-icons-footer-bottom wow fadeInDown">
-                    <li class="facebook"><a href="#" data-toggle="tooltip" title="Facebook"><i
-                                    class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li class="dribbble"><a href="#" data-toggle="tooltip" title="Dribble"><i
-                                    class="fa fa-dribbble"></i></a></li>
-                    <li class="linkedin"><a href="#" data-toggle="tooltip" title="LinkedIn"><i
-                                    class="fa fa-linkedin"></i></a></li>
-                    <li class="rss"><a href="#" data-toggle="tooltip" title="Rss"><i class="fa fa-rss"></i></a></li>
-                </ul>
-
-                <p class="site-info wow fadeInUp"> © 2014 FifoThemes</p>
-            </div>
-        </footer>
     </section>
     <!-- /Section 7 -->
 
-    <!-- Scroll To Top -->
-    <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
+    @include('components.page-frame.footer')
+    @include('components.common.scroll-to-top')
+
 </div>
 <!-- /Warpper -->
-
-
-<!-- The Scripts -->
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/jquery-migrate-1.0.0.js') }}"></script>
-<script src="{{ asset('js/jquery-ui.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/jquery.parallax.js') }}"></script>
-<script src="{{ asset('js/jquery.hparallax.js') }}"></script>
-<script src="{{ asset('js/jquery.wait.js') }}"></script>
-<script src="{{ asset('js/appear.js') }}"></script>
-<script src="{{ asset('js/fappear.js') }}"></script>
-<script src="{{ asset('js/modernizr-2.6.2.min.js') }}"></script>
-<script src="{{ asset('js/jquery.bxslider.min.js') }}"></script>
-<script src="{{ asset('js/jquery.maximage.js') }}"></script>
-<script src="{{ asset('js/jquery.cycle.all.js') }}"></script>
-<script src="{{ asset('js/jquery.prettyPhoto.js') }}"></script>
-<script src="{{ asset('js/jquery.sticky.js') }}"></script>
-<script src="{{ asset('js/jquery.isotope.js') }}"></script>
-<script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
-<script src="{{ asset('js/jquery.countTo.js') }}"></script>
-<script src="{{ asset('js/skrollr.min.js') }}"></script>
-<script src="{{ asset('js/jquery.scrollTo.min.js') }}"></script>
-<script src="{{ asset('js/jquery.nav.js') }}"></script>
-<script src="{{ asset('js/wow.js') }}"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="{{ asset('js/jquery.gmap.min.js') }}"></script>
-<script src="{{ asset('js/jquery.mb.YTPlayer.js') }}"></script>
-<script src="{{ asset('js/tytabs.js') }}"></script>
-<script src="{{ asset('js/custom.js') }}"></script>
-
-</body>
-</html>
+@endsection
