@@ -46,8 +46,8 @@
                                         {{ trans('navbar.edutainment') }}<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="external" href="{{ Route('Singapore-edutainment') }}">
-                                                {{ trans('navbar.Singapore-edutainment') }}
+                                            <a class="external" href="{{ Route('edutainment') }}">
+                                                {{ trans('navbar.edutainment') }}
                                             </a>
                                         </li>
                                         <li>

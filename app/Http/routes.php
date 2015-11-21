@@ -22,9 +22,13 @@ Route::get('/partners', ['as' => 'partners', function () {
     return view('pages.partners');
 }]);
 
-Route::get('/Singapore-edutainment', ['as' => 'Singapore-edutainment', function () {
-    return view('pages.Singapore-edutainment');
+Route::get('/edutainment', ['as' => 'edutainment', function () {
+    return view('pages.edutainment');
 }]);
+
+Route::get('/edutainment/{id}', ['as' => 'edutainment-package', 'uses' => 'packageController@showPackage']);
+
+
 Route::get('/SAT-tour', ['as' => 'SAT-tour', function () {
     return view('pages.SAT-tour');
 }]);

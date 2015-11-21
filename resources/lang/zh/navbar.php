@@ -18,7 +18,7 @@ return [
     'our-team' => '我们的团队',
     'partners' => '合作伙伴',
     'edutainment' => '游学项目',
-    'Singapore-edutainment' => '新加坡游学',
+    'edutainment' => '新加坡游学',
     'SAT-tour' => 'SAT考团',
     'guides-roster' => '导游辅导员团队',
     'tutoring' => '辅导项目',

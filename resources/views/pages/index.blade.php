@@ -1,5 +1,6 @@
 @extends('layouts.base')
 
+
 @section('content')
 @include('components.common.page-preloader')
         <!-- Warpper -->
@@ -105,7 +106,8 @@
                                 <h4>COMPETENCY BUILDUP</h4>
 
                                 <p>
-                                    Develop communication, interpersonal and leadership skills; practice public speaking
+                                    Develop communication, interpersonal and leadership skills; practice public
+                                    speaking
                                     and teamwork essentials
                                 </p>
                             </div>
@@ -264,8 +266,10 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Awarded Singapore SM2 scholarship for his university studies at Nanyang
-                                                Technological University while studying in Chonqqing Foreign Languages
+                                                Awarded Singapore SM2 scholarship for his university studies at
+                                                Nanyang
+                                                Technological University while studying in Chonqqing Foreign
+                                                Languages
                                                 School. Interned at UBS, Westpac Bank and many fresh start-ups.
                                             </p>
                                         </div>
@@ -300,8 +304,10 @@
 
                                             <p>
                                                 Graduated from Tianjin University and studied in Chongqing Foreign
-                                                Languages School Attached to Sichuan International Studies University.
-                                                Awarded a one-year Australian government scholarship for his overseas
+                                                Languages School Attached to Sichuan International Studies
+                                                University.
+                                                Awarded a one-year Australian government scholarship for his
+                                                overseas
                                                 studies.
                                             </p>
                                         </div>
@@ -335,9 +341,11 @@
                                                         class="fa fa-linkedin"></i></a>
 
                                             <p>
-                                                Finished his middle school studies in Fujian Fuzhou No1. Middle School.
+                                                Finished his middle school studies in Fujian Fuzhou No1. Middle
+                                                School.
                                                 Awarded Singapore SM2 Scholarship for his study in Mechanical &
-                                                Aerospace Engineering School Design Stream, in which he is now pursuing
+                                                Aerospace Engineering School Design Stream, in which he is now
+                                                pursuing
                                                 his Ph.D.
                                             </p>
                                         </div>
@@ -548,10 +556,12 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        With the honour to be the pioneering batch of Edutainment Camp,
+                                                        With the honour to be the pioneering batch of Edutainment
+                                                        Camp,
                                                         I would say it was definitely an eye-opening experience.
                                                         Not only did I get a chance to practice English more, I also
-                                                        made more international friends that I am still in touch with.
+                                                        made more international friends that I am still in touch
+                                                        with.
                                                         This has really expanded my horizon to view the world from a
                                                         whole different angle.
                                                     </p>
@@ -573,7 +583,8 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="testimonial item">
                                                     <p>
-                                                        As a high school student from China, A Glimpse to Nanyang gave
+                                                        As a high school student from China, A Glimpse to Nanyang
+                                                        gave
                                                         me a first-person view on overseas studying experience.
                                                         I wanted to visit Singapore to see if this would be a good
                                                         destination for my college studies, and A Glimpse to Nanyang
@@ -604,9 +615,11 @@
                                                         there is no one even compared to the Edutainment Camp.
                                                         Interaction was the most prominent trait I would say, with
                                                         international friends around my age.
-                                                        They shared with me more about the English language, taught me
+                                                        They shared with me more about the English language, taught
+                                                        me
                                                         more on public speaking and team work skills,
-                                                        and I also learned how other non-English native speakers learned
+                                                        and I also learned how other non-English native speakers
+                                                        learned
                                                         English, such as friends from Japan and Korea.
                                                         I definitely recommend this programme to anyone that is
                                                         interested to improve their English and other soft skills,
@@ -884,10 +897,12 @@
                                 <div class="row">
                                     <div class="col-md-12 wow fadeInUp">
                                         <button type="submit" class="btn btn-2 btn-2c">Send</button>
-                                        <div class="success alert-success alert" style="display:none">Your message has
+                                        <div class="success alert-success alert" style="display:none">Your message
+                                            has
                                             been sent successfully.
                                         </div>
-                                        <div class="error alert-danger alert" style="display:none">E-mail must be valid
+                                        <div class="error alert-danger alert" style="display:none">E-mail must be
+                                            valid
                                             and message must be longer than 100 characters.
                                         </div>
                                     </div>

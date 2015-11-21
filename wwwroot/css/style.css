@@ -843,6 +843,9 @@ div.content-box {
     clear: both;
 }
 
+div.content-box h1,
+div.content-box h2,
+div.content-box h3,
 div.content-box h4 {
     line-height: 32px;
     margin: 0 0 5px;

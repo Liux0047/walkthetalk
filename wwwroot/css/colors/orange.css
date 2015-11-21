@@ -27,7 +27,11 @@ ul.why li:before,
 	cursor: pointer;
 }
 
-div.content-box.big div.content-box-info p, .content-box-info h4 {
+div.content-box.big div.content-box-info p,
+.content-box-info h4,
+.content-box-info h3,
+.content-box-info h2,
+.content-box-info h1 {
 	color: #ffefe4;
 }
 

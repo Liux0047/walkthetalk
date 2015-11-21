@@ -16,19 +16,24 @@
     <!-- Library CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/team-member.css') }}" media="screen">
     <link rel="stylesheet" href="{{ asset('css/fonts/font-awesome/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animations.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ asset('css/team-member.css') }}" media="screen">
     <link rel="stylesheet" href="{{ asset('css/prettyPhoto.css') }}" media="screen">
     <link rel="stylesheet" href="{{ asset('css/jquery.bxslider.css') }}" media="screen">
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/global.css') }}">
+
     <!-- Skin -->
     <link rel="stylesheet" href="{{ asset('css/colors/orange.css') }}" class="colors">
 
+    @section('additional-CSS')
+    @show
 
-    <!-- Favicons -->
+
+            <!-- Favicons -->
     <link rel="shortcut icon" href="{{ asset('img/ico/favicon.ico') }}">
     <link rel="apple-touch-icon" href="{{ asset('img/ico/apple-touch-icon.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/ico/apple-touch-icon-72.png') }}">
@@ -46,8 +51,8 @@
         <!-- The Scripts -->
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/jquery-migrate-1.0.0.js') }}"></script>
-<script src="{{ asset('js/jquery-ui.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/jquery-ui.js') }}"></script>
 <script src="{{ asset('js/jquery.parallax.js') }}"></script>
 <script src="{{ asset('js/jquery.hparallax.js') }}"></script>
 <script src="{{ asset('js/jquery.wait.js') }}"></script>
@@ -70,6 +75,8 @@
 <script src="{{ asset('js/jquery.mb.YTPlayer.js') }}"></script>
 <script src="{{ asset('js/tytabs.js') }}"></script>
 <script src="{{ asset('js/custom.js') }}"></script>
+@section('additional-JS')
+@show
 
 </body>
 </html>
