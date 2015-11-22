@@ -90,28 +90,24 @@
         </div>
 
 
-        <!-- Section 6 -->
-        <section id="" class="">
-            <div class="container">
-                <div class="row flat">
-                    <!-- Title row -->
-                    <div class="row">
-                        <div class="col-md-12 big-title wow bounceIn">
-                            <h2>Pricing</h2>
-                        </div>
-
-                        <div class="clearfix"></div>
-
-                        <div class="col-md-12 sub-title text-center wow slideInRight">
-                            <h3>What you have become is the price you paid to get what you used to want!</h3>
-                        </div>
+        <div class="container">
+            <div class="row flat">
+                <!-- Title row -->
+                <div class="row">
+                    <div class="col-md-12 big-title wow bounceIn">
+                        <h2>Pricing</h2>
                     </div>
-                    <!-- /Title row -->
 
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-12 sub-title text-center wow slideInRight">
+                        <h3>What you have become is the price you paid to get what you used to want!</h3>
+                    </div>
                 </div>
+                <!-- /Title row -->
+
             </div>
-        </section>
-        <!-- /Section 6 -->
+        </div>
 
     </section>
 

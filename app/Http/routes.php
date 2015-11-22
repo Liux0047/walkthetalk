@@ -26,7 +26,7 @@ Route::get('/edutainment', ['as' => 'edutainment', function () {
     return view('pages.edutainment');
 }]);
 
-Route::get('/edutainment/{id}', ['as' => 'edutainment-package', 'uses' => 'packageController@showPackage']);
+Route::get('/edutainment/package/{id}', ['as' => 'edutainment-package', 'uses' => 'packageController@showPackage']);
 
 
 Route::get('/SAT-tour', ['as' => 'SAT-tour', function () {
