@@ -15,10 +15,11 @@ return [
 
     'home' => '主页',
     'about-us' => '关于我们',
-    'our-team' => '我们的团队',
+    'company-info' => '公司简介',
+    'program-info' => '项目介绍',
     'partners' => '合作伙伴',
     'edutainment' => '游学项目',
-    'edutainment' => '新加坡游学',
+    'winter-camp' => '冬令营',
     'SAT-tour' => 'SAT考团',
     'guides-roster' => '导游辅导员团队',
     'tutoring' => '辅导项目',

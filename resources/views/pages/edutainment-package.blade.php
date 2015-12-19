@@ -30,58 +30,59 @@
                 <!-- Title row -->
                 <div class="row">
                     <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Pricing</h2>
+                        <h2>{{ trans($packageName.'.itinerary') }}</h2>
                     </div>
 
                     <div class="clearfix"></div>
 
                     <div class="col-md-12 sub-title text-center wow slideInRight">
-                        <h3>What you have become is the price you paid to get what you used to want!</h3>
+                        <h3>{{ trans($packageName.'.itinerary-subtitle') }}</h3>
                     </div>
                 </div>
                 <!-- /Title row -->
 
                 <!-- Itinerary -->
-                <section id="cd-timeline" class="cd-container">
-                    @foreach($package as $counter => $activity)
-                        <div class="cd-timeline-block">
-                            @if($activity['icon'] == 'picture')
-                                <div class="cd-timeline-img cd-picture">
-                                    <img src="{{ asset('plugin/vertical-timeline/img/cd-icon-picture.svg') }}"
-                                         alt="Picture">
-                                </div>
-                            @elseif($activity['icon'] == 'movie')
-                                <div class="cd-timeline-img cd-movie">
-                                    <img src="{{ asset('plugin/vertical-timeline/img/cd-icon-movie.svg') }}"
-                                         alt="Movie">
-                                </div>
-                            @else
-                                <div class="cd-timeline-img cd-location">
-                                    <img src="{{ asset('plugin/vertical-timeline/img/cd-icon-location.svg') }}"
-                                         alt="Location">
-                                </div>
-                                @endif
-                                        <!-- cd-timeline-img -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <section id="cd-timeline" class="cd-container">
+                            @foreach($package as $counter => $activity)
+                                <div class="cd-timeline-block">
+                                    @if($activity['icon'] == 'picture')
+                                        <div class="cd-timeline-img cd-picture">
+                                            <img src="{{ asset('plugin/vertical-timeline/img/cd-icon-picture.svg') }}"
+                                                 alt="Picture">
+                                        </div>
+                                    @elseif($activity['icon'] == 'movie')
+                                        <div class="cd-timeline-img cd-movie">
+                                            <img src="{{ asset('plugin/vertical-timeline/img/cd-icon-movie.svg') }}"
+                                                 alt="Movie">
+                                        </div>
+                                    @else
+                                        <div class="cd-timeline-img cd-location">
+                                            <img src="{{ asset('plugin/vertical-timeline/img/cd-icon-location.svg') }}"
+                                                 alt="Location">
+                                        </div>
+                                        @endif
+                                                <!-- cd-timeline-img -->
 
-                                <div class="cd-timeline-content">
-                                    <h2>{{ trans('edutainment-package-'.$id.'.activity-title-'.($counter + 1)) }}</h2>
+                                        <div class="cd-timeline-content">
+                                            <h2>{{ trans($packageName.'.activity-title-'.($counter + 1)) }}</h2>
 
-                                    <p>
-                                        <i class="fa fa-map-marker"></i> {{ trans('edutainment-package-'.$id.'.activity-location-'.($counter + 1)) }}
-                                    </p>
+                                            <p>
+                                                <i class="fa fa-map-marker"></i> {{ trans($packageName.'.activity-location-'.($counter + 1)) }}
+                                            </p>
 
-                                    <p>{{ trans('edutainment-package-'.$id.'.activity-description-'.($counter + 1)) }}</p>
-                                    <p>
-                                        <img src="{{ asset('img/packages/edutainment-'.$id.'/activity-'.($counter + 1).".jpg") }}">
-                                    </p>
-                                    <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">
-                                {{ trans('edutainment-packages.day').' '. $activity['date']. ' ' . $activity['time'] }}
-                            </span>
-                                </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-                    @endforeach
-                </section> <!-- cd-timeline -->
+                                            <p>{{ trans($packageName.'.activity-description-'.($counter + 1)) }}</p>
+
+                                            <p>
+                                                <img src="{{ asset('img/packages/'.$packageName.'/activity-'.($counter + 1).".jpg") }}">
+                                            </p>
+                                        </div> <!-- cd-timeline-content -->
+                                </div> <!-- cd-timeline-block -->
+                            @endforeach
+                        </section> <!-- cd-timeline -->
+                    </div>
+                </div>
                 <!-- /Itinerary -->
             </div>
         </div>

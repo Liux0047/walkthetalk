@@ -6,7 +6,7 @@
                 <div class="col-md-2 mob-logo">
                     <div class="row">
                         <div class="site-logo">
-                            <a href=" {{ Route('home') }}"><img src="{{ asset('img/logo.png') }}" alt="Logo"></a>
+                            <a href="{{ Route('home') }}"><img src="{{ asset('img/logo.png') }}" alt="Logo"></a>
                         </div>
                     </div>
                 </div>
@@ -23,20 +23,20 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="menu">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#section1">{{ trans('navbar.home') }}</a></li>
+                                <li><a href="{{ Route('home') }}/#">{{ trans('navbar.home') }}</a></li>
                                 <li class="dropdown nav-toggle">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                         {{ trans('navbar.about-us') }}<b class="caret"></b>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="external" href="{{ Route('our-team') }}">
-                                                {{ trans('navbar.our-team') }}
+                                            <a class="external" href="{{ Route('about-us') }}#company-info">
+                                                {{ trans('navbar.company-info') }}
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="external" href="{{ Route('partners') }}">
-                                                {{ trans('navbar.partners') }}
+                                            <a class="external" href="{{ Route('about-us') }}#program-info">
+                                                {{ trans('navbar.program-info') }}
                                             </a>
                                         </li>
                                     </ul>
@@ -46,8 +46,8 @@
                                         {{ trans('navbar.edutainment') }}<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="external" href="{{ Route('edutainment') }}">
-                                                {{ trans('navbar.edutainment') }}
+                                            <a class="external" href="{{ Route('winter-camp') }}">
+                                                {{ trans('navbar.winter-camp') }}
                                             </a>
                                         </li>
                                         <li>
@@ -58,27 +58,6 @@
                                         <li>
                                             <a class="external" href="{{ Route('guides-roster') }}">
                                                 {{ trans('navbar.guides-roster') }}
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown nav-toggle">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                        {{ trans('navbar.tutoring') }}<b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="external" href="{{ Route('SAT-tutor') }}">
-                                                {{ trans('navbar.SAT-tutor') }}
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="external" href="{{ Route('SM-tutor') }}">
-                                                {{ trans('navbar.SM-tutor') }}
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="external" href="{{ Route('tutors-roster') }}">
-                                                {{ trans('navbar.tutors-roster') }}
                                             </a>
                                         </li>
                                     </ul>

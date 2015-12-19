@@ -13,8 +13,7 @@ return [
     |
     */
 
-    'day' => 'Day',
-    'location' => '地点',
+    'about-us' => '关于我们',
 
 
 ];

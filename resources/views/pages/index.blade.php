@@ -17,7 +17,7 @@
             <!-- Title row -->
             <div class="row">
                 <div class="col-md-12 big-title wow bounceIn">
-                    <h2>What is Walk-the-Talk</h2>
+                    <h2>{{ trans('index.about-us') }}</h2>
                 </div>
 
                 <div class="clearfix"></div>

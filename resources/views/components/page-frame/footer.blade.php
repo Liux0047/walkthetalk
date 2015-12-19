@@ -13,7 +13,7 @@
             <li class="rss"><a href="#" data-toggle="tooltip" title="Rss"><i class="fa fa-rss"></i></a></li>
         </ul>
 
-        <p class="site-info wow fadeInUp"> © 2014 FifoThemes</p>
+        <p class="site-info wow fadeInUp"> © {{ trans('footer.site-info') }}</p>
     </div>
 </footer>
 <!-- Footer -->

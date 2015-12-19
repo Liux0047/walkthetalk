@@ -19,6 +19,9 @@ return [
     |
     */
 
+    'itinerary' => '相遇新加坡',
+    'itinerary-subtitle' => '引路人之旅 2016年 2月21日至2月26日',
+
     'activity-title-1' => '开营活动',
     'activity-title-2' => '探索新加坡金融中心',
     'activity-title-3' => '参观南洋理工大学',

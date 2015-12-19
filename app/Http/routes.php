@@ -15,18 +15,15 @@ Route::get('/', ['as' => 'home', function () {
     return view('pages.index');
 }]);
 
-Route::get('/our-team', ['as' => 'our-team', function () {
-    return view('pages.our-team');
-}]);
-Route::get('/partners', ['as' => 'partners', function () {
-    return view('pages.partners');
+Route::get('/about-us', ['as' => 'about-us', function () {
+    return view('pages.about-us');
 }]);
 
-Route::get('/edutainment', ['as' => 'edutainment', function () {
-    return view('pages.edutainment');
-}]);
-
-Route::get('/edutainment/package/{id}', ['as' => 'edutainment-package', 'uses' => 'packageController@showPackage']);
+Route::get('/winter-camp',
+    ['as' => 'winter-camp',
+        'uses' => 'packageController@showWinterCamp'
+    ]
+);
 
 
 Route::get('/SAT-tour', ['as' => 'SAT-tour', function () {
