@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ asset('css/global.css') }}">
 
     <!-- Skin -->
-    <link rel="stylesheet" href="{{ asset('css/colors/orange.css') }}" class="colors">
+    <link rel="stylesheet" href="{{ asset('css/colors/teal.css') }}" class="colors">
 
     @section('additional-CSS')
     @show

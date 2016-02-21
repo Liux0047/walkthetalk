@@ -25,6 +25,12 @@ Route::get('/winter-camp',
     ]
 );
 
+Route::get('/summer-camp',
+    ['as' => 'summer-camp',
+        'uses' => 'packageController@showSummerCamp'
+    ]
+);
+
 
 Route::get('/SAT-tour', ['as' => 'SAT-tour', function () {
     return view('pages.SAT-tour');

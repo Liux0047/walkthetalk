@@ -46,8 +46,8 @@
                                         {{ trans('navbar.edutainment') }}<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="external" href="{{ Route('winter-camp') }}">
-                                                {{ trans('navbar.winter-camp') }}
+                                            <a class="external" href="{{ Route('summer-camp') }}">
+                                                {{ trans('navbar.summer-camp') }}
                                             </a>
                                         </li>
                                         <li>
@@ -61,6 +61,9 @@
                                             </a>
                                         </li>
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="{{ Route('SAT-tutor') }}">{{ trans('navbar.SAT-tutor') }}</a>
                                 </li>
                                 <li>
                                     <a href="{{ Route('contact-us') }}">{{ trans('navbar.contact-us') }}</a>

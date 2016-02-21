@@ -20,6 +20,7 @@ return [
     'partners' => '合作伙伴',
     'edutainment' => '游学项目',
     'winter-camp' => '冬令营',
+    'summer-camp' => '游学夏令营',
     'SAT-tour' => 'SAT考团',
     'guides-roster' => '导游辅导员团队',
     'tutoring' => '辅导项目',

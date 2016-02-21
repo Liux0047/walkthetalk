@@ -23,15 +23,14 @@
                 <div class="clearfix"></div>
 
                 <div class="col-md-12 sub-title text-center wow slideInRight">
-                    <h3>We believe that for a high school or college student, learning English is not just about the
-                        language itself.</h3>
+                    <h3>这是由在新加坡、澳洲、美国的留学生团体发起，联合新加坡当地教育机构、旅游组织与大学社团，为希望出国体验的国内大学、高中学生搭建的一个最便捷的平台。活动不以盈利为目的，通过整合各方教育、旅游与人力资源，让大多数渴望探索不同文化、提升英文沟通能力和结交同龄外国朋友的青少年都能以最低的费用，收获最大的价值</h3>
                 </div>
             </div>
             <!-- /Title row -->
 
             <div class="row">
                 <div class="col-md-12">
-                    <img src="{{ asset('img/imac-device.png') }}" alt="About Us" class="img-responsive">
+                    <img src="{{ asset('img/about-us.jpg') }}" alt="About Us" class="img-responsive">
                 </div>
             </div>
 
