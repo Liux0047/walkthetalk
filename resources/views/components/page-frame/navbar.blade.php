@@ -30,13 +30,13 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="external" href="{{ Route('about-us') }}#company-info">
+                                            <a class="external" href="{{ Route('about-us') }}">
                                                 {{ trans('navbar.company-info') }}
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="external" href="{{ Route('about-us') }}#program-info">
-                                                {{ trans('navbar.program-info') }}
+                                            <a class="external" href="{{ Route('about-us') }}#team-member">
+                                                {{ trans('navbar.team-member') }}
                                             </a>
                                         </li>
                                     </ul>

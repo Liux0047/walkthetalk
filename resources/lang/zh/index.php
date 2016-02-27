@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'about-us' => '什么是Walk the Talk?',
+    'about-us' => '什么是莱孚士',
 
 
 ];

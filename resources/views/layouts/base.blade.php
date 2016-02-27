@@ -7,7 +7,7 @@
 <html> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Walk the Talk | Travel made different</title>
+    <title>莱孚士| Travel made different</title>
     <meta name="description" content="Agency Parallax Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->

@@ -739,12 +739,16 @@ nav a:focus {
 
 /* Sub title */
 
-.sub-title h3 {
-    font-size: 18px;
+.sub-title h3, .sub-title h4 {
     line-height: 28px;
     margin: 0 auto 70px;
-    max-width: 900px;
     text-transform: none;
+}
+.sub-title h3 {
+    font-size: 18px;
+}
+.sub-title h4 {
+    font-size: 14px;
 }
 
 /* Effect 21: borders slight translate */

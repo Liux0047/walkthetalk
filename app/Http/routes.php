@@ -15,9 +15,10 @@ Route::get('/', ['as' => 'home', function () {
     return view('pages.index');
 }]);
 
-Route::get('/about-us', ['as' => 'about-us', function () {
-    return view('pages.about-us');
-}]);
+Route::get('/about-us', ['as' => 'about-us',
+        'uses' => 'AboutUsController@showAboutUs'
+    ]
+);
 
 Route::get('/winter-camp',
     ['as' => 'winter-camp',

@@ -17,6 +17,7 @@ return [
     'about-us' => '关于我们',
     'company-info' => '公司简介',
     'program-info' => '项目介绍',
+    'team-member' => '团队成员',
     'partners' => '合作伙伴',
     'edutainment' => '游学项目',
     'winter-camp' => '冬令营',
