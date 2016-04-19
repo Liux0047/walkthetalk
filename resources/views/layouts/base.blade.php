@@ -7,7 +7,7 @@
 <html> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>莱孚士| Travel made different</title>
+    <title>莱孚士| Technology made education difference</title>
     <meta name="description" content="Agency Parallax Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->
@@ -32,7 +32,7 @@
     @section('additional-CSS')
     @show
 
-
+    <!--pictures-->
             <!-- Favicons -->
     <link rel="shortcut icon" href="{{ asset('img/ico/favicon.ico') }}">
     <link rel="apple-touch-icon" href="{{ asset('img/ico/apple-touch-icon.png') }}">

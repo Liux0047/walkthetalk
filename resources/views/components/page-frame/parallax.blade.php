@@ -1,7 +1,8 @@
 <!-- Fullscreen Slider -->
+<!-- /Full Screen Slider -->
+@include('components.page-frame.navbar')
 <div class="slider-container">
     <ul class="fullwidth-slider">
-
         @for($i=1; $i<=3; $i++)
                 <!-- Slide {{ $i }} -->
         <li class="slide" style="background-image: url(img/slider/bx{{ $i }}.jpg);" data-anchor-target="section"
@@ -34,5 +35,3 @@
 
     </ul>
 </div>
-<!-- /Full Screen Slider -->
-@include('components.page-frame.navbar')

@@ -13,13 +13,13 @@ return [
     |
     */
 
-    'caption-title-1' => '旅行，发现与体验',
-    'caption-title-2' => '他通过随游赚取收入',
-    'caption-title-3' => '他使用随游旅行',
+    'caption-title-1' => '美国高考并不难',
+    'caption-title-2' => '北纬一度任我行',
+    'caption-title-3' => '留学路上不孤单',
 
-    'caption-text-1' => '这里有境外最好玩的短途体验',
-    'caption-text-2' => '通过随游网发布你熟悉的目的地线路活动及服务，或者带领游客旅行从而获取丰厚收入。',
-    'caption-text-3' => '在世界各地找到独特的体验，尝试和当地专家一起旅行',
+    'caption-text-1' => '待定',
+    'caption-text-2' => '待定',
+    'caption-text-3' => '待定',
 
     'learn-more' => '查看详细'
 

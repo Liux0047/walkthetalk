@@ -42,46 +42,59 @@
 
             <!-- Service row 1 -->
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 wow fadeIn">
                     <div class="service-box">
                         <div class="service-icon">
                             <i class="fa fa-arrows-alt"></i>
                         </div>
                         <div class="service-box-content">
-                            <h4>新加坡本地大学生</h4>
+                            <h4>远高于传统夏令营的性价比</h4>
 
                             <p>
-                                他们都是土生土长的新加坡人，分别来自新加坡南洋理工大学和新加坡国立大学，经过面试筛选加入到了Walk the Talk
-                                大家庭。这些热情洋溢的新加坡小伙伴们将会带领大家参与各种有趣的活动，探索新加坡的点点滴滴。更重要的是，在这一段异国的旅途中，他们和大家一样，都期待着收获一份珍贵的友谊
+                                不同于传统意义的夏令营，我们希望给大多数热爱英文、渴望接触不同文化的高中、大学生们一次宝贵的体验机会，不会因为昂贵的出国费用而望而却步，也不会因为走马观花的行程在活动结束的时候懊悔不已。
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 wow fadeIn">
                     <div class="service-box">
                         <div class="service-icon">
                             <i class="fa fa-eye"></i>
                         </div>
                         <div class="service-box-content">
-                            <h4>英语母语国际志愿者</h4>
+                            <h4>直接接触并了解留学文化的机会</h4>
 
                             <p>
-                                他们是来自英国、美国、澳大利亚、加拿大等英语母语国家的NGO(非政府组织)志愿者或者在新加坡的留学生，怀着对中国文化的热爱与向往，成为walk-the-talk的国际志愿者和英语老师，在向大家展示英语文化的同时，也渴望认识更多的来自中国的朋友
+                                由来自中国的新加坡政府奖学金得主发起，全部成员都有五年以上留学背景，以‘过来人’的视角更客观、详细地为有留学意愿的高中、大学生答疑解惑。
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 wow fadeIn">
                     <div class="service-box">
                         <div class="service-icon">
                             <i class="fa fa-edit"></i>
                         </div>
                         <div class="service-box-content">
-                            <h4>非英语母语国际志愿者</h4>
+                            <h4>广泛结交同龄外国朋友</h4>
 
                             <p>
-                                他们是在新加坡留学的日本、韩国和越南的大学生们，在一些特别的课堂活动或旅游探索中会加入大家，让整个体验更加丰富多彩
+                                在英文课堂和活动体验中，大家不仅将和新加坡大学生组队探索也将和众多的国际志愿者们互动交流，感受来自不同国度的年轻人的心声。
                             </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 wow fadeIn">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fa fa-edit"></i>
+                        </div>
+                        <div class="service-box-content">
+                            <h4 >多方位提升综合素质</h4>
+
+                           <p>
+                               在号召素质教育的今天，我们将口号付诸行动，通过提取一系列‘素质教育模型’样板，并嵌入英文课堂，在有趣的氛围中提升大家的独立自主、团队合作以及英文沟通等综合素质和能力。
+                           </p>
                         </div>
                     </div>
                 </div>
@@ -89,110 +102,11 @@
             <!-- Service row 1 -->
         </div>
 
-
-        <!-- Service wrap -->
-        <div class="about-wrap">
-            <div class="parallax-layer">
-                <div class="icons"></div>
-            </div>
-            <div class="parallax-layer">
-                <div class="texture"></div>
-            </div>
-            <div class="container">
-                <!-- Content row -->
-                <div class="row">
-                    <!-- Content box 1 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInLeft">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-arrows-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>远高于传统夏令营的性价比</h4>
-
-                                <p>
-                                    不同于传统意义的夏令营，我们希望给大多数热爱英文、渴望接触不同文化的高中、大学生们一次宝贵的体验机会，不会因为昂贵的出国费用而望而却步，也不会因为走马观花的行程在活动结束的时候懊悔不已。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 1 -->
-
-                    <!-- Content box 2 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInDown">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>直接接触并了解留学文化的机会</h4>
-
-                                <p>
-                                    由来自中国的新加坡政府奖学金得主发起，全部成员都有五年以上留学背景，以‘过来人’的视角更客观、详细地为有留学意愿的高中、大学生答疑解惑。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 2 -->
-
-                    <!-- Content box 3 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInRight">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-rocket"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>广泛结交同龄外国朋友</h4>
-
-                                <p>
-                                    在英文课堂和活动体验中，大家不仅将和新加坡大学生组队探索也将和众多的国际志愿者们互动交流，感受来自不同国度的年轻人的心声。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 3 -->
-
-                    <!-- Content box 4 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInRight">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-rocket"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>多方位提升综合素质</h4>
-
-                                <p>
-                                    在号召素质教育的今天，我们将口号付诸行动，通过提取一系列‘素质教育模型’样板，并嵌入英文课堂，在有趣的氛围中提升大家的独立自主、团队合作以及英文沟通等综合素质和能力。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 4 -->
-                </div>
-                <!-- /Content row -->
-            </div>
+        <div class="col-md-12 big-title wow bounceIn">
+            <h2>{{ trans($packageName.'.program-title') }}</h2>
         </div>
-        <!-- /Service wrap -->
-
 
         <div class="container">
-
             <!-- Start About Author -->
             <div class="about-author wow fadeInRight">
                 <div class="author-content">
@@ -234,7 +148,7 @@
             <div class="row flat">
                 <!-- Title row -->
                 <div class="col-md-12 big-title wow bounceIn">
-                    <h2>活动样例简介及往届掠影</h2>
+                    <h2>“伴游人”-活动流程</h2>
                 </div>
 
                 <div class="clearfix"></div>
@@ -266,13 +180,10 @@
 
                                     <div class="cd-timeline-content">
                                         <h2>{{ trans($packageName.'.activity-title-'.($counter + 1)) }}</h2>
-
                                         <p>
                                             <i class="fa fa-map-marker"></i> {{ trans($packageName.'.activity-location-'.($counter + 1)) }}
                                         </p>
-
                                         <p>{{ trans($packageName.'.activity-description-'.($counter + 1)) }}</p>
-
                                         <p>
                                             <img src="{{ asset('img/packages/'.$packageName.'/activity-'.($counter + 1).".jpg") }}">
                                         </p>
@@ -313,8 +224,7 @@
             </div>
         </div>
         <!-- /Itinerary -->
-        </div>
-        </div>
+
     </section>
 
 

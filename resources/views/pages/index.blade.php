@@ -1,6 +1,4 @@
 @extends('layouts.base')
-
-
 @section('content')
 @include('components.common.page-preloader')
         <!-- Warpper -->
@@ -23,442 +21,11 @@
                 <div class="clearfix"></div>
 
                 <div class="col-md-12 sub-title text-center wow slideInRight">
-                    <h3>这是由在新加坡、澳洲、美国的留学生团体发起，联合新加坡当地教育机构、旅游组织与大学社团，为希望出国体验的国内大学、高中学生搭建的一个最便捷的平台。活动不以盈利为目的，通过整合各方教育、旅游与人力资源，让大多数渴望探索不同文化、提升英文沟通能力和结交同龄外国朋友的青少年都能以最低的费用，收获最大的价值</h3>
+                    <h3>莱孚士教育科技有限公司成立于2015年，由一批荣获新加坡奖学金的留学生创建，是一家为国内高中生赴海外留学提供“一站式”服务的教育机构。莱孚士秉承着“过来人，更懂你”的理念，致力于成为广大青年学子最信赖的留学引路人。</h3>
                 </div>
             </div>
             <!-- /Title row -->
-
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="{{ asset('img/about-us.jpg') }}" alt="About Us" class="img-responsive">
-                </div>
-            </div>
-
-
         </div>
-
-        <!-- Service wrap -->
-        <div class="about-wrap">
-            <div class="parallax-layer">
-                <div class="icons"></div>
-            </div>
-            <div class="parallax-layer">
-                <div class="texture"></div>
-            </div>
-            <div class="container">
-                <!-- Content row -->
-                <div class="row">
-                    <!-- Content box 1 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInLeft">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-arrows-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>PEER GUIDES</h4>
-
-                                <p>
-                                    Meet native speakers; have fun with local undergraduate tour guides
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 1 -->
-
-                    <!-- Content box 2 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInDown">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>DYNAMIC EXPERIENCE</h4>
-
-                                <p>
-                                    Mingle with peers from different countries and cultural backgrounds.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 2 -->
-
-
-                    <!-- Content box 3 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInDown">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>COMPETENCY BUILDUP</h4>
-
-                                <p>
-                                    Develop communication, interpersonal and leadership skills; practice public
-                                    speaking
-                                    and teamwork essentials
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 3 -->
-
-                    <!-- Content box 3 -->
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="content-box big ch-item wow fadeInRight">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1">
-                                        <i class="fa fa-rocket"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-box-info">
-                                <h4>CUSTOMIZABLE SERVICES</h4>
-
-                                <p>
-                                    Explore various themes, visit local families, and enjoy personalized travel
-                                    documentary
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Content box 3 -->
-                </div>
-                <!-- /Content row -->
-            </div>
-        </div>
-        <!-- /Service wrap -->
-
-        <!-- What we do best -->
-        <div class="skills-wrap">
-            <div class="container">
-                <!-- Title row -->
-                <div class="row">
-                    <div class="col-md-12 big-title wow bounceIn">
-                        <h2>What we do best</h2>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-12 sub-title text-center wow slideInRight">
-                        <h3>It is not enough that we do our best; sometimes we must do what is required!</h3>
-                    </div>
-                </div>
-                <!-- /Title row -->
-
-                <!-- Expertise progress bars -->
-                <div class="skills">
-                    <ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
-                        <li class="progress">
-                            <div class="progress-bar" data-width="85">
-                                Wordpress 85%
-                            </div>
-                        </li>
-                        <li class="progress">
-                            <div class="progress-bar" data-width="65">
-                                Graphic Design 65%
-                            </div>
-                        </li>
-                        <li class="progress">
-                            <div class="progress-bar" data-width="90">
-                                HTML/CSS Design 90%
-                            </div>
-                        </li>
-                        <li class="progress">
-                            <div class="progress-bar" data-width="60">
-                                SEO 60%
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight">
-                        <li class="progress">
-                            <div class="progress-bar" data-width="75">
-                                Agencying 75%
-                            </div>
-                        </li>
-                        <li class="progress">
-                            <div class="progress-bar" data-width="95">
-                                App Development 95%
-                            </div>
-                        </li>
-                        <li class="progress">
-                            <div class="progress-bar" data-width="70">
-                                IT Consultency 70%
-                            </div>
-                        </li>
-                        <li class="progress">
-                            <div class="progress-bar" data-width="90">
-                                Theme Development 90%
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /Expertise progress bars -->
-            </div>
-        </div>
-        <!-- /What we do best -->
-
-
-        <!-- Quote of the day -->
-        <div class="quote-wrap light">
-            <div class="texture-layer">
-                <div class="container">
-                    <h2>
-                        <i class="fa fa-quote-left wow fadeInLeft"></i>
-                                          <span class="wow bounceIn">
-                                                THE WORLD IS A BOOK. <br>THOSE WHO DO NOT TRAVEL ONLY READ A PAGE.
-                                          </span>
-                        <i class="fa fa-quote-right wow" data-animate="fadeInRight"></i>
-                    </h2>
-
-                    <p class="animated wow" data-animate="fadeInUp">- Saint Augustine -</p>
-                </div>
-            </div>
-        </div>
-        <!-- /Quote of the day -->
-
-        <!-- Agency team -->
-        <div class="team-wrap">
-            <div class="container">
-                <!-- Title row -->
-                <div class="row">
-                    <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Our Team</h2>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-12 sub-title text-center wow slideInRight">
-                        <h3>We are a group of young, energetic people who aspire to explore the world with you</h3>
-                    </div>
-                </div>
-                <!-- /Title row -->
-
-                <!-- Team members row 1-->
-                <div class="row">
-                    <!-- item 1 -->
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item wow fadeInLeft">
-                        <div class="team-member">
-                            <div class="team-member-holder">
-                                <div class="team-member-image">
-                                    <img alt="" src="{{ asset('img/team/team-member-1.jpg') }}">
-
-                                    <div class="team-member-links">
-                                        <div class="team-member-links-list">
-                                            <a target="_blank" class="facebook team-member-links-item" href="#"><i
-                                                        class="fa fa-facebook"></i></a>
-                                            <a target="_blank" class="twitter team-member-links-item" href="#"><i
-                                                        class="fa fa-twitter"></i></a>
-                                            <a target="_blank" class="linkedin team-member-links-item" href="#"><i
-                                                        class="fa fa-linkedin"></i></a>
-
-                                            <p>
-                                                Awarded Singapore SM2 scholarship for his university studies at
-                                                Nanyang
-                                                Technological University while studying in Chonqqing Foreign
-                                                Languages
-                                                School. Interned at UBS, Westpac Bank and many fresh start-ups.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-member-meta">
-                                    <h4 class="team-member-name">Jerry He</h4>
-
-                                    <div class="team-member-role">
-                                        Chief Executive Officer (Founder)
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End -->
-                    <!-- item 2 -->
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item wow fadeInDown">
-                        <div class="team-member">
-                            <div class="team-member-holder">
-                                <div class="team-member-image">
-                                    <img alt="" src="{{ asset('img/team/team-member-2.jpg') }}">
-
-                                    <div class="team-member-links">
-                                        <div class="team-member-links-list">
-                                            <a target="_blank" class="facebook team-member-links-item" href="#"><i
-                                                        class="fa fa-facebook"></i></a>
-                                            <a target="_blank" class="twitter team-member-links-item" href="#"><i
-                                                        class="fa fa-twitter"></i></a>
-                                            <a target="_blank" class="linkedin team-member-links-item" href="#"><i
-                                                        class="fa fa-linkedin"></i></a>
-
-                                            <p>
-                                                Graduated from Tianjin University and studied in Chongqing Foreign
-                                                Languages School Attached to Sichuan International Studies
-                                                University.
-                                                Awarded a one-year Australian government scholarship for his
-                                                overseas
-                                                studies.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-member-meta">
-                                    <h4 class="team-member-name">Aaron Duan</h4>
-
-                                    <div class="team-member-role">
-                                        Chief Public-relation Officer
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End -->
-                    <!-- item 3 -->
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item wow fadeInDown">
-                        <div class="team-member">
-                            <div class="team-member-holder">
-                                <div class="team-member-image">
-                                    <img alt="" src="{{ asset('img/team/team-member-3.jpg') }}">
-
-                                    <div class="team-member-links">
-                                        <div class="team-member-links-list">
-                                            <a target="_blank" class="facebook team-member-links-item" href="#"><i
-                                                        class="fa fa-facebook"></i></a>
-                                            <a target="_blank" class="twitter team-member-links-item" href="#"><i
-                                                        class="fa fa-twitter"></i></a>
-                                            <a target="_blank" class="linkedin team-member-links-item" href="#"><i
-                                                        class="fa fa-linkedin"></i></a>
-
-                                            <p>
-                                                Finished his middle school studies in Fujian Fuzhou No1. Middle
-                                                School.
-                                                Awarded Singapore SM2 Scholarship for his study in Mechanical &
-                                                Aerospace Engineering School Design Stream, in which he is now
-                                                pursuing
-                                                his Ph.D.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-member-meta">
-                                    <h4 class="team-member-name">Tracy Huang</h4>
-
-                                    <div class="team-member-role">
-                                        Chief Marketing Officer (Co-founder)
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End -->
-                    <!-- item 4 -->
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item wow fadeInRight">
-                        <div class="team-member">
-                            <div class="team-member-holder">
-                                <div class="team-member-image">
-                                    <img alt="" src="{{ asset('img/team/team-member-4.jpg') }}">
-
-                                    <div class="team-member-links">
-                                        <div class="team-member-links-list">
-                                            <a target="_blank" class="facebook team-member-links-item" href="#"><i
-                                                        class="fa fa-facebook"></i></a>
-                                            <a target="_blank" class="twitter team-member-links-item" href="#"><i
-                                                        class="fa fa-twitter"></i></a>
-                                            <a target="_blank" class="linkedin team-member-links-item" href="#"><i
-                                                        class="fa fa-linkedin"></i></a>
-
-                                            <p>
-                                                Graduated from Chongqing University, with Bachelor’s degree in
-                                                accouting. Now working at Chongqing Xiliken Import and Export
-                                                Corporation.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-member-meta">
-                                    <h4 class="team-member-name">Rye Wang</h4>
-
-                                    <div class="team-member-role">
-                                        Chief Public-relation Officer
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End -->
-                </div>
-                <!-- /Team members row 1-->
-            </div>
-        </div>
-        <!-- /Agency team -->
-
-        <!-- Fun Facts -->
-        <div class="fun-wrap">
-            <div class="texture-layer">
-                <div class="container">
-                    <!-- Title row -->
-                    <div class="row">
-                        <div class="col-md-12 big-title light wow bounceIn">
-                            <h2>Some Fun Facts</h2>
-                        </div>
-                    </div>
-                    <!-- /Title row -->
-
-                    <div class="row">
-                        <div class="col-md-3 wow fadeInLeft">
-                            <div class="fun-box">
-                                <i class="fa fa-clock-o"></i>
-                                <span class="fun" data-from="0" data-to="4555" data-speed="5000"
-                                      data-refresh-interval="50"></span>
-
-                                <p>Hours of work</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 wow fadeInDown">
-                            <div class="fun-box">
-                                <i class="fa fa-users"></i>
-                                <span class="fun" data-from="0" data-to="101" data-speed="5000"
-                                      data-refresh-interval="50"></span>
-
-                                <p>Satisfied client</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 wow fadeInDown">
-                            <div class="fun-box">
-                                <i class="fa fa-check"></i>
-                                <span class="fun" data-from="0" data-to="222" data-speed="5000"
-                                      data-refresh-interval="50"></span>
-
-                                <p>Projects Completed</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 wow fadeInRight">
-                            <div class="fun-box">
-                                <i class="fa fa-trophy"></i>
-                                <span class="fun" data-from="0" data-to="49" data-speed="5000"
-                                      data-refresh-interval="50"></span>
-
-                                <p>Awards Won</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Fun Facts -->
     </section>
     <!-- /Section 2 -->
 
@@ -469,55 +36,70 @@
                 <!-- Title row -->
                 <div class="row">
                     <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Programs</h2>
+                        <h2>“一站式”服务</h2>
                     </div>
 
-                    <div class="clearfix"></div>
+                    {{--<div class="clearfix"></div>--}}
 
-                    <div class="col-md-12 sub-title text-center wow slideInRight">
+                   {{-- <div class="col-md-12 sub-title text-center wow slideInRight">
                         <h3>We match the project goals with a proposed solution considering latest web features, web
                             design and corporate branding!</h3>
-                    </div>
+                    </div>--}}
                 </div>
                 <!-- /Title row -->
 
+
                 <!-- Service row 1 -->
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
+                    <div class="col-md-12 big-title wow bounceIn">
                         <div class="service-box">
                             <div class="service-icon">
                                 <i class="fa fa-arrows-alt"></i>
                             </div>
                             <div class="service-box-content">
-                                <h4>Edutainment Camp</h4>
-
+                                <h4 align = "left">SAT辅导</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
+                                    参加 SAT 考试是通往美国大学的第一站，也是至关重要的一站。“引路人”不仅会帮你在这一站取得优异的成绩，还会帮你建立宝贵的留学人脉，收获难忘的出国体验。
                                 </p>
+                                <p><b><ins><a href="{{ Route('SAT-tour') }}">查看详细>></a></ins></b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
+                    <div class="col-md-12 big-title wow bounceIn">
                         <div class="service-box">
                             <div class="service-icon">
-                                <i class="fa fa-eye"></i>
+                                <i class="fa fa-arrows-alt"></i>
                             </div>
                             <div class="service-box-content">
-                                <h4>A Glimpse to Nanyang</h4>
-
+                                <h4 align = "left">SAT考团</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
+                                    SAT 成绩是实现美国大学梦的敲门砖，广大学子都为此而努力着。然而在追梦路上，使用英文答题的理科考试往往成了最大的阻碍。“助梦人”不仅希望能帮助你突破这一瓶颈，更希望能帮助你培养英文环境下的理科思维，从而为你日后的海外学习做好充足的准备。
                                 </p>
+                                <p><b><ins><a href="{{ Route('SAT-tutor') }}">查看详细>></a></ins></b></p>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 big-title wow bounceIn">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <i class="fa fa-arrows-alt"></i>
+                            </div>
+                            <div class="service-box-content">
+                                <h4 align = "left">冬/夏令营</h4>
+                                <p>
+                                    平时用功读书，暑期怎么安排？加入”伴游人“之旅，让你的暑期与众不同！这个夏天，和“伴游人”一同前往美丽的狮城，漫步世界名校南洋理工大学，畅游风景宜人的圣淘沙海岛，结交来自世界各地的小伙伴。“伴游人”愿意陪你在旅途中成长，在游戏中学习，在活动中收获宝贵的跨国友谊，为你的人生添上浓墨重彩的一笔。
+                                </p>
+                                <p><b><ins><a href="{{ Route('summer-camp') }}">查看详细>></a></ins></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">--}}
                 </div>
                 <!-- Service row 1 -->
             </div>
         </div>
     </section>
     <!-- /Section 4 -->
-
     <!-- Section 5 -->
     <section id="section5" class="clients">
         <div class="testimonial-wrap">
@@ -526,17 +108,14 @@
                     <!-- Title row -->
                     <div class="row">
                         <div class="col-md-12 big-title light wow bounceIn">
-                            <h2>Testimonials</h2>
+                            <h2>TA们的感言</h2>
                         </div>
-
                         <div class="clearfix"></div>
-
                         <div class="col-md-12 sub-title text-center light wow slideInRight">
-                            <h3>Great designs are made by excellent use of white space, and plenty of it!</h3>
+                            <h3>待定!Great designs are made by excellent use of white space, and plenty of it!</h3>
                         </div>
                     </div>
                     <!-- /Title row -->
-
                     <!-- Testimonial row-->
                     <div class="row">
                         <div class="testimonials">
@@ -661,262 +240,9 @@
     <!-- /Section 5 -->
 
     <!-- Section 6 -->
-    <section id="section6" class="pricing">
-        <div class="container">
-            <div class="row flat">
-                <!-- Title row -->
-                <div class="row">
-                    <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Pricing</h2>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-12 sub-title text-center wow slideInRight">
-                        <h3>What you have become is the price you paid to get what you used to want!</h3>
-                    </div>
-                </div>
-                <!-- /Title row -->
-
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInLeft">
-                        <ul class="plan plan1">
-                            <li class="plan-name">
-                                Basic
-                            </li>
-                            <li class="plan-price">
-                                <strong>$29</strong> / month
-                            </li>
-                            <li>
-                                <strong>5GB</strong> Storage
-                            </li>
-                            <li>
-                                <strong>1GB</strong> RAM
-                            </li>
-                            <li>
-                                <strong>400GB</strong> Bandwidth
-                            </li>
-                            <li>
-                                <strong>10</strong> Email Address
-                            </li>
-                            <li>
-                                <strong>Forum</strong> Support
-                            </li>
-                            <li class="plan-action">
-                                <a href="#" class="btn btn-2 btn-2c">Signup</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <ul class="plan plan2 featured">
-                            <li class="plan-name">
-                                Standard
-                            </li>
-                            <li class="plan-price">
-                                <strong>$39</strong> / month
-                            </li>
-                            <li>
-                                <strong>5GB</strong> Storage
-                            </li>
-                            <li>
-                                <strong>1GB</strong> RAM
-                            </li>
-                            <li>
-                                <strong>400GB</strong> Bandwidth
-                            </li>
-                            <li>
-                                <strong>10</strong> Email Address
-                            </li>
-                            <li>
-                                <strong>Forum</strong> Support
-                            </li>
-                            <li class="plan-action">
-                                <a href="#" class="btn btn-2 btn-2c">Signup</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInDown">
-                        <ul class="plan plan3">
-                            <li class="plan-name">
-                                Advanced
-                            </li>
-                            <li class="plan-price">
-                                <strong>$199</strong> / month
-                            </li>
-                            <li>
-                                <strong>5GB</strong> Storage
-                            </li>
-                            <li>
-                                <strong>1GB</strong> RAM
-                            </li>
-                            <li>
-                                <strong>400GB</strong> Bandwidth
-                            </li>
-                            <li>
-                                <strong>10</strong> Email Address
-                            </li>
-                            <li>
-                                <strong>Forum</strong> Support
-                            </li>
-                            <li class="plan-action">
-                                <a href="#" class="btn btn-2 btn-2c">Signup</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInRight">
-                        <ul class="plan plan4">
-                            <li class="plan-name">
-                                Mighty
-                            </li>
-                            <li class="plan-price">
-                                <strong>$999</strong> / month
-                            </li>
-                            <li>
-                                <strong>5GB</strong> Storage
-                            </li>
-                            <li>
-                                <strong>1GB</strong> RAM
-                            </li>
-                            <li>
-                                <strong>400GB</strong> Bandwidth
-                            </li>
-                            <li>
-                                <strong>10</strong> Email Address
-                            </li>
-                            <li>
-                                <strong>Forum</strong> Support
-                            </li>
-                            <li class="plan-action">
-                                <a href="#" class="btn btn-2 btn-2c">Signup</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Section 6 -->
 
     <!-- Section 7 -->
-    <section id="section7" class="contacts">
-        <!-- Subscription Wrap -->
-        <div class="subscription-wrap light">
-            <div class="texture-layer">
-                <div class="container">
-                    <!-- Title row -->
-                    <div class="row">
-                        <div class="col-md-12 big-title light wow bounceIn">
-                            <h2>Subscribe with us</h2>
-                        </div>
-                    </div>
-                    <!-- /Title row -->
 
-                    <!-- Subscription form -->
-                    <div class="row text-center">
-                        <div class="col-md-2"></div>
-
-                        <div class="col-md-8">
-                            <form method="post" action="#" id="signup">
-                                <fieldset>
-                                    <span id="response"></span>
-
-                                    <input class="form-control subEmail wow fadeInLeft" type="text"
-                                           placeholder="Email Address" id="subEmail" name="subEmail">
-                                    <button class="btn btn-1 wow fadeInRight">Join</button>
-
-                                    <div id="no-spam" class="wow fadeInUp">* We'll never spam or give this address
-                                        away
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
-
-                        <div class="col-md-2"></div>
-                    </div>
-                    <!-- /Subscription form -->
-                </div>
-            </div>
-        </div>
-        <!-- /Subscription Wrap -->
-
-        <!-- Contact form -->
-        <div class="contact-form">
-            <div class="container">
-                <!-- Title row -->
-                <div class="row">
-                    <div class="col-md-12 big-title wow bounceIn">
-                        <h2>Contact</h2>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-12 sub-title text-center wow slideInRight">
-                        <h3>Contact with us to learn more about all of our Web Design Services!</h3>
-                    </div>
-                </div>
-                <!-- /Title row -->
-
-                <!-- Form element row -->
-                <div class="row text-center">
-                    <div class="col-md-2"></div>
-
-                    <div class="col-md-8">
-                        <form method="post" class="reply" id="contact">
-                            <fieldset>
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <input class="form-control" id="name" name="name" type="text"
-                                                       placeholder="Name" value="" required>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="form-control" type="email" id="email" name="email"
-                                                       placeholder="Email" value="" required>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="form-control" type="text" id="subject" name="subject"
-                                                       placeholder="Subject" value="" required>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <textarea class="form-control" id="text" name="text" rows="3" cols="40"
-                                                          placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 wow fadeInUp">
-                                        <button type="submit" class="btn btn-2 btn-2c">Send</button>
-                                        <div class="success alert-success alert" style="display:none">Your message
-                                            has
-                                            been sent successfully.
-                                        </div>
-                                        <div class="error alert-danger alert" style="display:none">E-mail must be
-                                            valid
-                                            and message must be longer than 100 characters.
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-
-                    <div class="col-md-2"></div>
-                </div>
-                <!-- /Form element row -->
-            </div>
-        </div>
-        <!-- /Contact form -->
-    </section>
     <!-- /Section 7 -->
 
     @include('components.page-frame.footer')

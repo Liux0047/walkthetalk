@@ -55,16 +55,28 @@
                                                 {{ trans('navbar.SAT-tour') }}
                                             </a>
                                         </li>
-                                        <li>
+                                       {{-- <li>
                                             <a class="external" href="{{ Route('guides-roster') }}">
                                                 {{ trans('navbar.guides-roster') }}
                                             </a>
-                                        </li>
+                                        </li>--}}
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="{{ Route('SAT-tutor') }}">{{ trans('navbar.SAT-tutor') }}</a>
+                                <li class="dropdown nav-toggle">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        {{ trans('navbar.tutoring') }}<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="{{ Route('SAT-tutor') }}">{{ trans('navbar.SAT-tutor') }}</a>
+                                        </li>
+                                        {{-- <li>
+                                             <a class="external" href="{{ Route('guides-roster') }}">
+                                                 {{ trans('navbar.guides-roster') }}
+                                             </a>
+                                         </li>--}}
+                                    </ul>
                                 </li>
+
                                 <li>
                                     <a href="{{ Route('contact-us') }}">{{ trans('navbar.contact-us') }}</a>
                                 </li>

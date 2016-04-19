@@ -19,10 +19,11 @@ return [
     |
     */
 
-    'itinerary' => '引路人 - 新加坡游学夏令营',
+    'itinerary' => '“伴游人”- 新加坡冬/夏令营',
     'itinerary-subtitle' => '由当地大学生带你游山玩水，踏上少有人走的路，领略地道的风景；与热爱中国文化的外国朋友作伴，在一个包容的国度，睁开认识世界的眼睛；当然还有，和小伙伴们一起，给青春留下一个共同经历的烙印，为友谊带来永远年轻的记忆！',
 
     'basic-info' => '活动详情',
+    'program-title'=>'“伴游人”-活动内容',
     'program-date-title' => '活动时间',
     'program-date-info' => '2016年8月5日-- 2016年8月15日 （暂定）',
     'program-fee-title' => '报名费用',
@@ -30,15 +31,15 @@ return [
     'program-signup-title' => '报名及咨询方式',
     'program-signup-info' => '请扫描下方二维码',
 
-    'activity-title-1' => '开营活动',
-    'activity-title-2' => '探索新加坡金融中心',
-    'activity-title-3' => '参观南洋理工大学',
-    'activity-title-4' => '文化之旅',
-    'activity-title-5' => '英文课堂',
-    'activity-title-6' => '科技之旅',
-    'activity-title-7' => '英文课堂',
-    'activity-title-8' => '自然之旅',
-    'activity-title-9' => '汇报演出',
+    'activity-title-1' => '第一天',
+    'activity-title-2' => '第二天',
+    'activity-title-3' => '第三天',
+    'activity-title-4' => '第四天',
+    'activity-title-5' => '第五天',
+    'activity-title-6' => '第六天',
+    'activity-title-7' => '第七天',
+    'activity-title-8' => '第八天',
+    'activity-title-9' => '第九天',
 
     'activity-description-1' => '破冰游戏、自我介绍、团队游戏等',
     'activity-description-2' => '在志愿者带领下探索新加坡金融中心，参观新加坡地标鱼尾狮以及新加坡国家博物馆',
